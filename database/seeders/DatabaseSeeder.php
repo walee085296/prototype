@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
         // 1. إنشاء الرتب (استخدمنا firstOrCreate عشان نمنع التكرار)
         $adminRole = Role::firstOrCreate(['name' => 'admin']);
         $receptionistRole = Role::firstOrCreate(['name' => 'receptionist']);
-
+        $securityRole = Role::firstOrCreate(['name' => 'security']);
         // 2. إنشاء حساب المدير (Admin)
         $admin = User::firstOrCreate(
             ['email' => 'admin@system.com'], // بيبحث بده
@@ -35,8 +35,20 @@ class DatabaseSeeder extends Seeder
         );
         $staff->assignRole($receptionistRole);
 
+           // 3. إنشاء حساب موظف الاستقبال (Receptionist)
+        $staff = User::firstOrCreate(
+            ['email' => 'security@system.com'],
+            [
+                'name' => 'Security Staff',
+                'password' => Hash::make('123456'),
+            ]
+        );
+        $staff->assignRole($securityRole);
+
+
         echo "✅ Roles and Users seeded successfully!\n";
         echo "Admin: admin@system.com | 123456\n";
         echo "Staff: staff@system.com | 123456\n";
+        echo "Security: security@system.com | 123456\n";
     }
 }

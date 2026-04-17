@@ -9,17 +9,23 @@
                 </div>
 
                 <div class="hidden space-x-reverse space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    @role('admin|receptionist')
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         <i class="fas fa-chart-pie ms-2"></i> {{ __('الرئيسية') }}
                     </x-nav-link>
+                    @endrole
 
+                    @role('security')
                     <x-nav-link :href="route('reception.scan')" :active="request()->routeIs('reception.scan')">
                         <i class="fas fa-qrcode ms-2"></i> {{ __('ماسح التصاريح') }}
                     </x-nav-link>
-
+                    @endrole
+                     
+                    @role('admin|receptionist')
                     <x-nav-link :href="route('visitor.index')" :active="request()->routeIs('visitor.index')">
                         <i class="fas fa-users ms-2"></i> {{ __('سجل الزوار') }}
                     </x-nav-link>
+                    @endrole
 
                     @role('admin')
                     <x-nav-link :href="route('visitor.blacklist')" :active="request()->routeIs('visitor.blacklist')" class="text-red-600">
@@ -41,7 +47,7 @@
                                         
                                     </span>
                                     <span class="text-xs text-blue-600 italic">
-                                        {{ Auth::user()->hasRole('admin') ? 'مدير النظام' : 'موظف استقبال' }}
+                                        {{ Auth::user()->hasRole('admin') ? 'مدير النظام' : (Auth::user()->hasRole('security') ? 'موظف الأمن' : 'موظف استقبال') }}
                                     </span>
                                 </div>
 

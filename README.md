@@ -1,32 +1,25 @@
 <div id="top"></div>
-<!-- PROJECT LOGO -->
-<br />
+
 <div align="center">
-  <a href="https://advancedacademy.edu.eg/Katamia/RootPages/Default.aspx" />
-     <img src="./Logo.png" alt=" المتطوره University" width="180" height="160">
+  <a href="#">
+     <img src="https://cdn-icons-png.flaticon.com/512/9616/9616730.png" alt="VMS Logo" width="120" height="120">
   </a>
 
-  <h3 align="center">Students Project Management System</h3>
+  <h2 align="center">نظام إدارة الزيارات الذكي (VMS)</h2>
+  <p align="center"><strong>Smart Visitor Management & Security Solutions</strong></p>
 
-  # prototype
-https://merry-biscuit-f051ab.netlify.app/
-
-# Figma prototype
-https://www.figma.com/make/9P34JoNlXTop5F7iAwN8mS/%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A8?fullscreen=1
-
+  # Prototype
+  https://merry-biscuit-f0.netlify.app/
 
   <p align="center">
-    An awesome way  to manage your student's projects!
+    منظومة متكاملة لتنظيم حركة الزوار وتأمين المنشآت باستخدام تقنيات التحقق الرقمي.
     <br />
-    <a href="#">Report Bugs</a>
+    <a href="#">View Demo</a>
     ·
-    <a href="#">Request Feature</a>
+    <a href="#">Documentation</a>
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -48,64 +41,49 @@ https://www.figma.com/make/9P34JoNlXTop5F7iAwN8mS/%D9%86%D8%B8%D8%A7%D9%85-%D8%A
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
+يُعرف عصرنا الحالي بعصر الثورة التكنولوجية وانفجار المعرفة؛ حيث شهد العقد الأخير تقدماً هائلاً في مجال تكنولوجيا المعلومات حوّل العالم إلى قرية كونية صغيرة. وقد انعكس هذا التطور على المجالات الإدارية والأمنية داخل المؤسسات والمنشآت بشكل كبير؛ حيث ساعدت التكنولوجيا على إيجاد وسائل وأدوات حديثة سهّلت عملية تنظيم حركة الأفراد وجعلتها أكثر دقة وأماناً ومواكبة لتطورات العصر.
 
-يُعرف عصرنا الحالي بعصر الثورة التكنولوجية وانفجار المعرفة. شهد العقد الأخير من القرن العشرين وبداية القرن الحادي والعشرين تقدمًا هائلاً في مجال تكنولوجيا المعلومات، وقد حوّلت الوسائل التكنولوجية الحديثة العالم إلى قرية كونية صغيرة. انعكس هذا التطور في مجالات عديدة، إلا أن المجال الذي استفاد منه بشكل كبير هو التعليم؛ فقد ساعدت التكنولوجيا على إيجاد العديد من الوسائل والأدوات التي سهّلت العملية التعليمية وجعلتها أكثر مواكبة لتطورات العصر، ومسألة حضور التكنولوجيا في مجال التعليم أمرٌ لا مفر منه، حيث شهد مجال التعليم طفرةً كبيرة في أواخر القرن العشرين.
-<br/>
-تنافست المؤسسات التعليمية الحكومية والخاصة على إيجاد وتوفير وسائل فعّالة تُساعد الطالب على التعلّم بسهولة، وتُتيح له القدرة على الإبداع بفاعلية في دراسته وعمله المُستقبلي. يُسهّل توظيف التكنولوجيا في العملية التعليمية عملية التواصل والتفاعل بين الطالب والمعلم، بالإضافة إلى تسهيل العديد من العمليات الإدارية، كتحويل بعض العمليات الورقية إلى إلكترونية. وهذا بدوره سيؤدي إلى تطوير العمل الإداري، وتقليل الأعمال الورقية، وتحسين الخدمات بتقليل التنقل بين الإدارات لتداول الأعمال بين الموظفين، وتسهيل الوصول إلى المعلومات في أي وقت ومكان، وهذا بدوره سيؤدي إلى زيادة سرعة إنجاز العمل، وتقليل تكاليف العمل الإداري، مع رفع مستوى الأداء، بالإضافة إلى إمكانية التغلب على مشكلة البعد الجغرافي والزماني، وتطوير آلية العمل، ومواكبة التطورات.
-<br/>
-انطلاقاً من هذه النقطة عمل فريق المشروع على بناء نظام إلكتروني لإدارة مشاريع التخرج في المعهد العالي للدراسات المتطوره ، تم من خلاله أتمتة العمليات الإدارية كالتنسيق والإشراف على مشاريع التخرج وخلق بيئة أكثر تفاعلية وتطوراً بما يتوافق مع أهداف الجامعة وتوجهاتها نحو مواكبة التطور واستخدام التكنولوجيا في خدمة التعليم وجعله أكثر كفاءة وفعالية.
-<br/>
+انطلاقاً من الرؤية نحو أتمتة العمليات الإدارية ورفع الكفاءة التشغيلية، تم تطوير هذا النظام الإلكتروني الذكي لإدارة الزيارات (Visitor Management System). يهدف النظام إلى تحويل السجلات الورقية التقليدية إلى منظومة رقمية مشفرة، مما يزيد من سرعة إنجاز العمل، ويقلل التكاليف، ويرفع مستوى الأداء الأمني من خلال:
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+    توليد تصاريح QR Code: تخصيص كود فريد لكل زيارة لضمان أقصى درجات الأمان ومنع التلاعب بالتصاريح.
 
+    نظام القائمة السوداء (Blacklist): محرك أمني متطور لمنع دخول الأشخاص المحظورين آلياً وإصدار تنبيهات فورية.
 
+    الأرشفة الرقمية والتقارير: سهولة الوصول لسجلات الزوار والتحركات في أي وقت، مع توفير تحليل دقيق للبيانات لدعم اتخاذ القرار.
 
+يمثل هذا النظام حلولاً تقنية متطورة تساهم في خلق بيئة عمل آمنة ومنظمة، مما يعكس واجهة احترافية للمنشأة ويضمن سلاسة الإجراءات الإدارية بما يتوافق مع أحدث المعايير التكنولوجية.
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Laravel](https://laravel.com)
-* [TailwindCss](https://tailwindcss.com/)
-* [JQuery](https://jquery.com)
-* [AlpineJs](https://alpinejs.dev/)
-* [Rest API](https://docs.github.com/en/rest)
+* [Laravel 10.x](https://laravel.com)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Simple QrCode](https://www.simplesoftware.io/#/docs/simple-qrcode)
+* [MySQL](https://www.mysql.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
-Make sure you have all the prerequisites and either pull the project using your favorite tool or download it manually.
+لإعداد المشروع محلياً على جهازك، اتبع الخطوات التالية:
 
 ### Prerequisites
 
-Make sure you have all the prerequisites before moving to the next section.
-* npm^8.1.0
-  ```sh
-  sudo apt install nodejs.
-  ```
-* php^8.1.5
-  ```sh
-  sudo apt-get install php
-  ```
-* composer^2.1.11
-  ```sh
-  php composer-setup.php --install-dir=bin
-  ```
+* PHP >= 8.1
+* Composer
+* Node.js & NPM
 
+### Installation
+
+1. قم بتحميل المشروع (Clone):
+   ```sh
+   git clone [https://github.com/walee085296/prototype.git](https://github.com/walee085296/prototype.git)
 ### Installation
 
 _Below is how you install and setup up your own version of the app._ 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/DU-EDU-SY/SPMS.git
+   git clone https://github.com/walee085296/prototype.git
    ```
    Or you can download the files manually.
 
@@ -143,11 +121,7 @@ Now you should be able to login with the default administrator account waleelink
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
 
-Create a new user, give them permission to create a group, create a group the create a project and all your work will be uploaded to github.
-_For more details on how to use the project, please refer to the Documentation._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -155,6 +129,6 @@ _For more details on how to use the project, please refer to the Documentation._
 
 waleed ali ahmed - waleelink@gmail.com
     <p >WhatsApp => <a href="https://wa.me/+201142881682">contact devolobers tem </a></p>
-Project Link: [https://github.com/SPM](https://github.com/walee085296/spms_project)
+Project Link: [https://github.com/VMS(https://github.com/walee085296/prototype)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -66,12 +66,12 @@
             </form>
 
             {{-- Footer بسيط للفورم --}}
-            @if (Route::has('register'))
+            {{-- @if (Route::has('register'))
                 <p class="mt-8 text-center text-xs font-bold text-slate-400">
                     ليس لديك حساب؟ 
                     <a href="{{ route('register') }}" class="text-blue-600 hover:underline">أنشئ حساباً جديداً</a>
                 </p>
-            @endif
+            @endif --}}
         </div>
         
         <p class="mt-8 text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">Secure Access • Gooocode v2.0</p>
